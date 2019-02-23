@@ -5,10 +5,10 @@ body{
    height: 97vh;
 }
 
-h1{
-    color: red;
+h2{
+    color: black;
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 /* .container{
@@ -27,6 +27,9 @@ h1{
    
 }
 .e-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: black solid 2px;
     border-radius: 10px;
     background-color: red;
@@ -36,10 +39,12 @@ h1{
     margin: 10px;
 }
 .e-buttons-container{
-    width: 278px;
+    width: 271px;
+    height: 490px;
+    padding-top: 10px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: white;
+    
 }
