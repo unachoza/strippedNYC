@@ -1,0 +1,45 @@
+body{
+    background: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1549152866/iphoneXaccuratemask.png') center fixed no-repeat; 
+   display: flex;
+   text-align: center;
+   height: 97vh;
+}
+
+h1{
+    color: red;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+/* .container{
+    margin: 0 auto;
+    display: flex; 
+    align-items: center;
+    
+} */
+.phone-container {
+    height: 555px;
+    width: 287px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    background-size: 100%;
+   
+}
+.e-button {
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: red;
+    opacity: .8;
+    height: 80px;
+    width: 100px;
+    margin: 10px;
+}
+.e-buttons-container{
+    width: 278px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+}
