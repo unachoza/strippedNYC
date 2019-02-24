@@ -11,12 +11,6 @@ h2{
     font-size: 14px;
 }
 
-/* .container{
-    margin: 0 auto;
-    display: flex; 
-    align-items: center;
-    
-} */
 .phone-container {
     height: 555px;
     width: 287px;
@@ -25,6 +19,18 @@ h2{
     bottom: 0;
     background-size: 100%;
    
+}
+
+/* Landing Pages Style */
+.e-buttons-container{
+    width: 271px;
+    height: 490px;
+    padding-top: 10px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
 }
 .e-button {
     display: flex;
@@ -38,13 +44,34 @@ h2{
     width: 100px;
     margin: 10px;
 }
-.e-buttons-container{
-    width: 271px;
-    height: 490px;
-    padding-top: 10px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    
+
+/* Injury Page style */
+.top-card {
+    width: 374px;
+    height: 178px;
+    left: 18px;
+    top: 123px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.bottom-card{
+    width: 374px;
+    height: 258px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+#grey{
+    width: 282px;
+    border-radius: 3px;
+    background-color: #bbb6b6
+}
+.yesNo {
+    width: 106px;
+    height: 24px;
+    background: #FE3004;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
