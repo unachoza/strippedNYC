@@ -4,6 +4,12 @@ body{
    text-align: center;
    height: 97vh;
 }
+h1{
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    margin-left: 10px;
+}
 
 h2{
     color: white;
@@ -35,8 +41,7 @@ h2{
     
 }
 .e-button {
-    display: flex;
-    align-items: flex-end;
+    text-align: left;
     border: black solid 2px;
     border-radius: 10px;
     background-color: red;
@@ -44,6 +49,11 @@ h2{
     width: 111px;
     height: 110px;
     margin: 10px;
+}
+.button-text{
+    display: flex;
+    flex-direction: column;
+    height: 110px;
 }
 #eb1{
     background-color: #F93C64;
@@ -62,6 +72,24 @@ h2{
     background-color: #0D1C7B;
     
 }
+#im-r{
+margin-bottom: 28px
+}
+#im-g{
+margin-bottom: 38px;
+}
+#im-b{
+    margin-bottom: 38px;
+}
+#im-y {
+    margin-bottom: 56px;
+}
+#im-p {
+    margin-bottom: 38px;
+}
+
+
+
 /* Injury Page style */
 .top-card {
     width: 374px;
