@@ -29,10 +29,29 @@ h2{
    
 }
 
+/* Navigation Bar */
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1px;
+    
+}
+.icon-container{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: 1px solid black
+}
+h6{
+    margin-top: 23px;
+    font-size: 8px;    
+}
+
 /* Landing Pages Style */
 .e-buttons-container{
     width: 271px;
-    height: 362px;
+    height: 450px;
     padding-top: 10px;
     margin: auto;
     display: flex;

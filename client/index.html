@@ -11,15 +11,15 @@
 <body>
     <div class="phone-container">
         
-        <h2 style="color: black">What is your immediate need?</h2>
+        <h2 style="color: black; font-size: 14px">What is your immediate need?</h2>
 
         <div class="e-buttons-container">
-            <div class="e-button" id="eb1">
+            <div class="e-button" id="eb1"onclick="pageToInjury()">
                 <h1 id="im-r">I'm Injured</h1><br/>
                     <h2>Medical Care</h2>
 
             </div>
-            <div class="e-button" id="eb2" onclick="pageToInjury()">
+            <div class="e-button" id="eb2" >
                 <h1 id="im-g">I'm hungry & thirsty </h1>
                 <h2>Food/Water</h2>
 
@@ -40,6 +40,24 @@
 
             </div>
             
+        </div>
+        <div class="navbar">
+            <div class="icon-container" id="home" onclick="clickThis()">
+                <img src=""/>
+                <h6>HOME</h6>
+            </div>
+            <div class="icon-container" id="maps" onclick="clickThis()">
+                <img src=""/>
+                <h6>MAPS</h6>
+                </div>
+            <div class="icon-container" id="alerts"onclick="clickThis()">
+                <img src=""/>
+                <h6>ALERTS</h6>
+            </div>
+            <div class="icon-container" id="settings" onclick="clickThis()">
+                <img src=""/>
+                <h6>SETTINGS</h6>
+            </div>
         </div>
     </div>
     
