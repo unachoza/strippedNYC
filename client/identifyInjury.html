@@ -5,37 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class="phone-container" id="grey">
-        
-        <h2>Medical Care</h2>
+        <div class="page-header">
+            <div class="icon-container" style="margin: 10px"></div>
+            Medical Care
+        </div>
 
-        <div class="e-buttons-container">
-            <div class="first-card">
+        <div class="medQ-container">
+            <div class="card" id="first-card" onclick="nextCard()">
                 <div class="card-text"> Okay, we hear you. Let me ask you a couple of questions to see what we can do. </div>
             </div>
-            <div class="second-card" >
-                <div class="question">
-                    <h2>Is this person unresponsive and breathing?</h2>
+            <div class="card" id="second-card" >
+                <div class="card-text "style="margin-top: 10px">Is this person unresponsive and breathing?</div>
+                <div class="responses-container">     
+                <div class="yesNo">
+                           Yes
+                        </div>
                         <div class="yesNo">
-                           <h3>Yes</h3>
+                            No
+                        </div> 
+                    </div>   
+                </div>
+                <div class="card" id="third-card" >
+                    <div class="card-text">
+                        <h2> Do you have any of the following: shortness of breath, weakness, fatigue, dizziness, nausea?</h2>
+                        <div class="yesNo">
+                            <h3>Yes</h3>  
+                               <!-- if yes, give bubble options for shortness of breath, weakness, fatigue, dizziness, nausea -->
                         </div>
                         <div class="yesNo">
                             <h3>No</h3>
                         </div> 
-                </div>
-                <div class="question">
-                    <h2> Do you have any of the following: shortness of breath, weakness, fatigue, dizziness, nausea?</h2>
-                        <div class="yesNo">
-                                <h3>Yes</h3>  
-                                <!-- if yes, give bubble options for shortness of breath, weakness, fatigue, dizziness, nausea -->
-                             </div>
-                             <div class="yesNo">
-                                 <h3>No</h3>
-                             </div> 
+                    </div>
                 </div>
             </div>
         </div>

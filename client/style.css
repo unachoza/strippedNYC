@@ -110,7 +110,26 @@ margin-bottom: 38px;
 
 
 /* Injury Page style */
-.first-card {
+.page-header{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 15px;
+    padding-right: 30px;
+}
+.medQ-container{
+    width: 271px;
+    height: 450px;
+    padding-top: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card {
     display: flex;
     align-items: center;
     height: 80px;
@@ -120,19 +139,26 @@ margin-bottom: 38px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
 }
-
-.second-card{
+#first-card{
     display: none;
-    width: 374px;
-    height: 258px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
+}
+#third-card{
+    display: none;
+}
+#second-card{
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.responses-container{
+    display: flex;
+
 }
 .card-text {
-    font-family: Roboto;
-font-style: normal;
-font-weight: black;
+    font-family: 'Roboto', sans-serif;;
+
+font-weight: 900;
 line-height: normal;
 font-size: 12px;
 }
@@ -143,8 +169,12 @@ font-size: 12px;
     background-color: e2dfdf;
 } */
 .yesNo {
-    width: 106px;
-    height: 24px;
+   
+    color: white;
+    margin: 20px;;
+    width: 80px;
+    height: 20px;
+    border-radius: 9px;
     background: #FE3004;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
