@@ -1,5 +1,5 @@
 // alert('now')
-console.log('pring')
+console.log('prring')
 const pageToInjury = () => {
     window.location.href='./identifyInjury.html'
     console.log('I was clicked')
